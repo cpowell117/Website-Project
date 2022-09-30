@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+    <title>Shipping Website Project</title>
+    <link rel="stylesheet" href="home_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">    
+        <nav>
+            <a href="home_index.html"><img src="photos/Global ShippingInc -logos_transparent.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>LEADING INNOVATORS OF SHIPPING</h1>
+        <P>
+            We pride ourselves in leading the charge in innovation. By fusing Aritifical Intelligence and logistics we're able to<br> revolutionize the shipping industry. We take pride in providing our clientele a unique service that no other company can provide.
+        </P>
+        <a href="" class="hero-btn">Visit Us To Learn More</a>
+    </div>
+
+    </section>
+
+    <!----------Services----------->
+
+    <section class="course">
+        <h1>Services</h1>
+        <p>We offer a wide variety of different shipping and logistic services</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Shipping</h3>
+                <p>oiuhfoiwerfhgiorhfgoierhiowerh</p>
+            </div>
+            <div class="course-col">
+                <h3>Ocean Freights</h3>
+                <p>ieorhfgoerihgferiohfgirhfgoiafh</p>
+            </div>
+            <div class="course-col">
+                <h3>Air Freights</h3>
+                <p>oiwfhwiohfiwhfwiehfwihfifh3'4qi</p>
+            </div>
+            <div class="course-col">
+                <h3>Marine Services</h3>
+                <p>'eowifhnwerpiohnwer3pihrihfgiphg</p>   
+            </div>
+        </div>
+    </section>
+
+   <!-------------About Us---------------->
+
+   <section class="about">
+        <h1>Our Story</h1>
+        <p>iofhwierhfiwehfweihfwifhi'pfhhfj</p>
+
+        <div class="row">
+            <div class="about-col">
+                <img src="photos/about_us.jpg">    
+                <div class="layer">
+                    <h3>Marine</h3>
+                </div>    
+            </div>
+            <div class="about-col">
+                <img src="photos/about_us_cargoplane.jpg">    
+                <div class="layer">
+                    <h3>Airline</h3>
+                </div>    
+            </div>
+            <div class="about-col">
+                <img src="photos/pexels-janrune-smenes-reite-3197704.jpg">    
+                <div class="layer">
+                    <h3>Ocean</h3>
+                </div>    
+            </div>
+        </div>
+   </section>
+
+
+
+
+    <!--------- JavaScript for toggle menu --------->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0px";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
+
