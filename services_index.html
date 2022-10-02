@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+    <title>Shipping Website Project</title>
+    <link rel="stylesheet" href="home_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">    
+        <nav>
+            <a href="home_index.html"><img src="photos/Global ShippingInc -logos_transparent.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home_index.html">HOME</a></li>
+                    <li><a href="aboutus_index.html">ABOUT</a></li>
+                    <li><a href="services_index.html">SERVICES</a></li>
+                    <li><a href="contact_index.html">CONTACT</a></li>
+                    </ul>
+                    </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Services</h1>
+    </section>
+
+    <!--------- Detailed Service content --------->
+    <section class="moreinfo">
+        <div class="row">
+            <div class="moreinfo-left">
+                <img src="photos/about_us_cargoship.jpg">
+                <h2>Here are our Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nihil nemo quod ullam ipsam molestias! Quaerat deleniti, rem iste totam animi dolor error molestiae quod libero dolore quidem cumque nostrum.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus numquam eveniet nam? Obcaecati fuga corrupti quis quidem voluptatum, nesciunt velit. Molestias, laboriosam tenetur? Totam possimus quia iste sunt maiores quis.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur accusantium itaque quis temporibus aliquam recusandae aut quos odit expedita, perspiciatis voluptates fugiat incidunt, officia vel tempore veniam voluptatem ullam. Recusandae?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit minus dolore possimus facilis consequatur ipsa, veniam ullam amet. Error, magni eius. Hic officiis, ullam ad ut fugit esse dicta perspiciatis!</p>
+
+                <div class="comment-box">
+                    <h3>Want to learn more?</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter your">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea row="5" placeholder="Description"></textarea>
+                        <button type="submit" class="hero-btn red-btn">SEND QUERY</button> 
+                    </form>
+                </div>
+
+
+
+
+
+             </div>
+            <div class="moreinfo-right">
+                <h3>Operation Locations</h3>
+                <div>
+                    <span>Gulf of Mexico</span>
+                </div>
+                <div>
+                    <span>The Caribbean</span>
+                </div>
+                <div>
+                    <span>The Middle East</span>
+                </div>
+                <div>
+                    <span>Africa</span>
+                </div>
+                <div>
+                    <span>The Philippines</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   <!--------------Footer------------>
+
+   <section class="footer">
+        <h4>About Us</h4>
+        <p>wiofhweouifhweiosdhbcfviowednbvcoidwehfvweiofh</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made by Christopher Powell</p>
+   </section>
+
+
+    <!--------- JavaScript for toggle menu --------->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0px";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
